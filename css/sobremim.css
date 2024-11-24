@@ -1,0 +1,45 @@
+skills {
+    display: flex;
+    flex-wrap: wrap; /* Permite que os cards quebrem para a linha seguinte quando necessário */
+    justify-content: space-evenly; /* Espaça igualmente os cards na tela */
+    padding: 9%;
+   
+  }
+  
+  .card {
+    width: 250px; /* Aumenta a largura dos cards */
+    padding: 20px; /* Aumenta o espaçamento interno */
+    margin: 35px; /* Adiciona espaço entre os cards */
+    border-radius: 10px; /* Bordas arredondadas */
+    transition: transform 0.3s ease, opacity 0.3s ease; /* Transição suave para o efeito hover */
+    opacity: 0.6; /* Torna o card um pouco mais opaco por padrão */
+    text-align: center; /* Alinha o texto ao centro */
+    box-sizing: border-box; /* Garante que o padding e a borda não aumentem a largura do card */
+  }
+  
+  .card img {
+    width: 100%; /* A imagem ocupa toda a largura do card */
+    height: auto; /* A altura da imagem se ajusta automaticamente */
+    object-fit: cover; 
+    margin-bottom: 15px; /* Espaçamento entre a imagem e o texto */
+  }
+  
+  /* Estilo para o título e o texto */
+  .card h3 {
+    font-size: 1.6em;
+    color: #333;
+    margin-bottom: 10px; /* Espaçamento abaixo do título */
+  }
+  
+  .card p {
+    font-size: 1em;
+    color: #555;
+    line-height: 1.6; /* Aumenta o espaçamento entre as linhas para uma leitura melhor */
+  }
+  
+  /* Efeito de hover */
+  .card:hover {
+    transform: translateY(-10px); /* Efeito que levanta o card ao passar o mouse */
+    opacity: 1.0;
+  }
+  
