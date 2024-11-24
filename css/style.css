@@ -1,17 +1,17 @@
+/* Configuraçao do papel de parede */
 body {
   margin: 0;
   padding: 0;
   font-family: Arial, sans-serif;
-
-  /* Configura a imagem de fundo */
-  background-image: url('../css/img/2.png'); /* Substitua 'minha-foto.jpg' pelo nome da sua imagem */
-  background-size: cover; /* Faz com que a imagem cubra todo o plano de fundo */
-  background-position: center; /* Centraliza a imagem */
-  background-repeat: no-repeat; /* Evita a repetição da imagem */
+  background-image: url('../css/img/2.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat; 
   background-attachment: fixed;
-  height: 100vh; /* Define a altura para 100% da janela do navegador */
+  height: 100vh; 
 }
-.ideia {
+/* Configuraçao da sombra */
+.sombra {
   padding: 5px;
   background-color: rgba(0, 0, 0, 0.5);
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
@@ -20,14 +20,15 @@ body {
   margin-bottom: 0;
   
 }
+/* Configuraçao da navbar */
 .navbar-custom {
   background-color: #212529;
 }
 .navbar-brand img{
-  width: 45px; /* Defina o tamanho desejado para a imagem */
-  height: 45px; /* Deve ser igual à largura para manter a forma circular */
-  border-radius: 50%; /* Torna a imagem redonda */
-  border: 1px solid white; /* Borda branca */
+  width: 45px;
+  height: 45px;
+  border-radius: 50%; 
+  border: 1px solid white; 
   
 }
 .navbar li {
