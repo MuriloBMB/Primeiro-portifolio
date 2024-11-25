@@ -98,16 +98,12 @@
   padding: 10px;
   width: 25%;
   box-sizing: border-box;
-  border: 1px solid #ddd; 
   border-radius: 20px;    
   overflow: hidden;
   margin-bottom: 20px;    
   opacity: 0.7;          
   transition: opacity 0.3s ease, transform 0.3s ease;
   align-items: center;
-}
-.card h5{
-  text-align: center;
 }
 .card:hover {
   transform: translateY(-10px);
@@ -116,4 +112,7 @@
 .card img {
   width: 50%;
   height: auto;
+}
+.card h5{
+  text-align: center;
 }

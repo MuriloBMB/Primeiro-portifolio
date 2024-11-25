@@ -1,0 +1,42 @@
+.topicos {
+    color: whitesmoke;
+    text-align: center;
+    padding-top: 15%;
+    margin-bottom: 5%;
+    font-size: 40px; /* Tamanho da fonte */
+  }
+  
+.contatos {
+    padding: 10%;
+    display: flex;
+    flex-wrap: wrap;        
+    gap: 90px;               
+    justify-content: space-between;
+}
+
+.card {
+    padding: 15px;
+    width: 25%;
+    border-radius: 20px;
+    overflow: hidden;
+    margin-bottom: 20px;    
+    opacity: 0.7;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    text-align: center;
+    cursor: pointer;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    opacity: 1;
+}
+
+.card-icons {
+    font-size: 60px;
+    margin-bottom: 10px;  
+    color: black;  /* Definindo a cor dos ícones para preto */
+}
+
+a {
+    text-decoration: none;  /* Remover o sublinhado dos links */
+}
