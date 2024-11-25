@@ -34,3 +34,12 @@ body {
 .navbar li {
     margin: 0 15px;
 }
+
+.footer-icon {
+  color: whitesmoke;
+  margin: 0 20px;
+  font-size: 24px;
+  transition: color 0.3s ease;
+  border: none;                
+  outline: none;    
+}
